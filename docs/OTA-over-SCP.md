@@ -5,7 +5,7 @@ To upload .bin images to OTA server using SCP, edit the following lines under ta
 ```
 ; *** Upload file to OTA server using SCP
 upload_port = USER@HOST:/path
-extra_scripts = pio/sftp-uploader.py
+extra_scripts = pio-tools/sftp-uploader.py
 ```
 upload_port should be modified to reflect user, host and path on the host where images should be uploaded.
 
